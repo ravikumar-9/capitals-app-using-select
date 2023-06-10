@@ -1,0 +1,100 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #93c5fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.capitals-container {
+  border-width: 0px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 17px;
+}
+@media screen and (min-width: 576px) {
+  .main-heading {
+    font-weight: bold;
+    font-size: 30px;
+    color: #000000;
+    font-family: 'roboto';
+  }
+  .selected-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .question {
+    font-size: 14px;
+    color: #000000;
+    font-family: 'roboto';
+  }
+  .country-name {
+    font-size: 18px;
+    color: #000000;
+    font-family: 'roboto';
+    text-align: start;
+    font-weight: bold;
+    padding-left: 30px;
+  }
+  .select-bar {
+    height: 30px;
+    width: 200px;
+    cursor: pointer;
+    outline: none;
+  }
+  .options {
+    font-size: 17px;
+    cursor: pointer;
+    outline: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .capitals-container {
+    border-width: 0px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .main-heading {
+    font-weight: bold;
+    font-size: 27px;
+    color: #000000;
+    font-family: 'roboto';
+  }
+  .selected-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .question {
+    font-size: 14px;
+    color: #000000;
+    font-family: 'roboto';
+  }
+  .country-name {
+    font-size: 18px;
+    color: #000000;
+    font-family: 'roboto';
+    text-align: start;
+    font-weight: bold;
+    padding-left: 30px;
+  }
+  .select-bar {
+    height: 30px;
+    width: 200px;
+    cursor: pointer;
+    outline: none;
+  }
+  .options {
+    font-size: 17px;
+    cursor: pointer;
+    outline: none;
+  }
+}
